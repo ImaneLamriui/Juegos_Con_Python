@@ -28,7 +28,7 @@ while len(letters_to_predict) > 0 and vidas > 0:
     if vidas == 1:
       print(f"Te quedan {vidas} vida.Y has usado estas letras: {set(letters_predicted)}")
     elif vidas == 5:
-      print(f"Te quedan {vidas} vida.")
+      print(f"Te quedan {vidas} vidas.")
     else:
       print(f"Te quedan {vidas} vidas.Y has usado estas letras: {set(letters_predicted)}")
     lenguaje = [letra if letra in letters_predicted else '-' for letra in language_selected_by_laptop]
